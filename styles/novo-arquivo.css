@@ -1,0 +1,35 @@
+.cadastro {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 330px;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.cadastro__rotulo{
+    display: block;
+    margin: 15 px 0 5px;
+}
+
+.cadastro__input{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    font-size: 16px;
+    padding: 7px;
+    
+}
+
+.cadastro__botao-wrap{
+    padding-top: 15px;
+    text-align: center;
+
+}
+
+#salvar {
+    padding: 5px 20px;
+    cursor: pointer;
+}

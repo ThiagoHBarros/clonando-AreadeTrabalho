@@ -1,0 +1,36 @@
+.area-trabalho {
+    height:  calc(100% - var(--barra-tarefas-altura));
+    background: url('../assets/fundo1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.area-trabalho__arquivos {
+    width: calc(100% - 350px);
+    display: flex;
+    align-items: flex-start;
+}
+
+.arquivo {
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 14px;
+    width: 100px;
+}
+
+.arquivo:hover{
+    background-color: #b1e5ff77;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.arquivo__icone{
+    width: 80%;
+
+}
+
+.arquivo__nome {
+    color: #fff;
+    text-shadow: 0 0 2px #000;
+    text-shadow: 0 0 2px #000, 0 0 3px #000, 0 0 3px #000, 0 0 4px #000;
+}

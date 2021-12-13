@@ -1,0 +1,38 @@
+.barra-tarefas{
+    height:  var(--barra-tarefas-altura);
+    background-color: #000000;
+    box-shadow: 0 -1px 5px rgba(250, 63, 73, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.barra-tarefas__icone {
+    height: 50px;
+    padding: 10px;
+    margin: 0px 10px 0px 0px;
+    cursor: pointer;    
+    vertical-align: middle;
+
+}
+
+.barra-tarefas__icone:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.barra-tarefas__grupo-esquerdo{
+    display: flex;
+    align-items: center;
+}
+
+.barra-tarefas__grupo-direito{
+    display: flex;
+    align-items: center;
+}
+
+.barra-tarefas__data-hora{
+    color: #fff;
+    text-align: center;
+    padding: 0px 20px;    
+}
